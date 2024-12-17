@@ -6,7 +6,7 @@
 
 Welcome to Shop.co, your one-stop solution for creating and managing an online store! Shop.co provides businesses with a powerful platform to showcase their products and facilitate seamless online shopping experiences. Featuring a sleek, responsive design and robust functionality, Shop.co is built to simplify e-commerce management and enhance customer satisfaction.
 
-Before you begin, ensure your development environment is set up with the necessary tools and that you are familiar with React and Firebase. The application integrates Firebase for user authentication and Firestore for efficient data storage. You can explore a live demo of the application here.
+Before you begin, ensure your development environment is set up with the necessary tools and that you are familiar with React and Firebase. The application integrates Firebase for user authentication and Firestore for efficient data storage. You can explore a live demo of the application (here)[https://shopcowebapplication.netlify.app/].
 
 ## Prerequisites
 
@@ -20,8 +20,8 @@ Before you proceed, ensure you have the following prerequisites installed and se
 1. Clone the repository:
 
    ```
-   git clone https://github.com/Dulshan330/taskbun.git
-   cd taskbun
+   git clone https://github.com/Dulshan330/shop.co.git
+   cd shop.co
    ```
 
 2. Install dependencies:
@@ -30,16 +30,7 @@ Before you proceed, ensure you have the following prerequisites installed and se
    npm install
    ```
 
-3. Set up Firebase:
-
-   - Create a Firebase project and note down the Firebase configuration.
-   - Initialize Firebase in your project by running:
-     ```
-     npm install firebase
-     ```
-   - Configure Firebase in your project by adding your Firebase configuration details in the appropriate files.
-
-4. Update your firebase project information in firebase.js file:
+3. Update your firebase project information in firebaseSDK.js file:
 
    ```
    apiKey: "your API key",
@@ -51,24 +42,45 @@ Before you proceed, ensure you have the following prerequisites installed and se
    measurementId: "your measurement ID",
    ```
 
-6. Start the development server:
+4. Start the development server:
 
    ```
-   npm start
+   npm run dev
    ```
 
-7. Open the application in your web browser.
+5. Open the application in your web browser.
 
 ## Usage
 
-Once the application is running, you can start managing your tasks. Use the intuitive interface to add, edit, and delete tasks. Taskbun stores your tasks securely in Firebase, ensuring they are always accessible.
+Once the application is up and running, you can start managing your online store effortlessly. Here's how you can use Shop.co to its fullest potential:
+
+1. Add Products:
+- Use the intuitive admin panel to add new products, including details like name, price, description, category, and product images.
+
+2. Manage Inventory:
+- Keep track of product stock levels and update inventory in real time.
+
+3. Customer Authentication:
+- Allow customers to sign up or log in securely using Firebase authentication.
+
+4. Seamless Shopping Experience:
+- Customers can browse through product categories, add items to their cart, and proceed to checkout.
+
+5. Order Management:
+- View and process customer orders efficiently through the admin dashboard.
+
+6. Payment Integration:
+- Enable secure online transactions using integrated payment gateways.
+
+
+With Shop.co, you can provide your customers with a professional and enjoyable shopping experience while simplifying your store's operations.
 
 ## Contributing
 
-We welcome contributions to Taskbun! Whether you want to report bugs, suggest enhancements, or contribute code, feel free to open issues or submit pull requests.
+We welcome contributions to Shop.co and are excited to have developers help improve this e-commerce platform! If you encounter bugs or have ideas for enhancements, open an issue in the repository. Please provide detailed information about the problem or suggestion to help us address it efficiently.
 
 ## Author
 
-[Dulshan Senadheera](https://dulshansenadheera.me/)
+Dulshan Senadheera
 
 ---
