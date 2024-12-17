@@ -6,7 +6,7 @@
 
 Welcome to Shop.co, your one-stop solution for creating and managing an online store! Shop.co provides businesses with a powerful platform to showcase their products and facilitate seamless online shopping experiences. Featuring a sleek, responsive design and robust functionality, Shop.co is built to simplify e-commerce management and enhance customer satisfaction.
 
-Before you begin, ensure your development environment is set up with the necessary tools and that you are familiar with React and Firebase. The application integrates Firebase for user authentication and Firestore for efficient data storage. You can explore a live demo of the application (here)[https://shopcowebapplication.netlify.app/].
+Before you begin, ensure your development environment is set up with the necessary tools and that you are familiar with React and Firebase. The application integrates Firebase for user authentication and Firestore for efficient data storage. You can explore a live demo of the application [here](https://shopcowebapplication.netlify.app/).
 
 ## Prerequisites
 
